@@ -154,7 +154,7 @@
         $('.customerlist li').remove();
         var flag = 1;
         for (var url of url_list) {
-            $('.customerlist').append('<li class="customeritem"><h2>'+flag + '</h2><img src=' + url + ' class="shadow p-3 mb-5 bg-white rounded" alt = "..." width="300px"></li >');
+            $('.customerlist').append('<li class="customeritem"><h2>'+flag + '</h2><img src=' + url + ' class="shadow p-3 mb-5 bg-white rounded" alt = "..." width="256px"></li >');
             flag ++;
         }
         $("ul.customerlist").sortable({stop: function (event, ui) {
